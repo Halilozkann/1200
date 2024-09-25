@@ -6,9 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <!-- default olarak p bir bloktu onu inline a cevirdik-->
     <p style="display: inline;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, voluptate?</p>
     
-    <a href="#">Link1</a>
+      <!-- default olarak a inline di onu blok a cevirdik-->
+    <a href="#" style="display: block;">Link1</a>
+
+    <p style="display: block; width: 250px; height: 250px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, voluptate?</p>
+
+    <!--inline da genislik ve yukseklik verilemezken 
+    blockta  verilir-->
+
+    <!--inline-block ise kutulari alt alta dan yan yana ya cevirir.-->
+
+<div style="width: 300px; height: 300px; background-color: rgb(218, 24, 24); display: inline-block;"></div>
+
+<div style="width: 300px; height: 300px; background-color: rgb(42, 44, 165); display: inline-block;"></div>
 </body>
 </html>
